@@ -13,7 +13,7 @@ color_red="✘ | color=#ff0000 dropdown=false"
 color_yellow="◉ | color=#ffa500 dropdown=false"
 color_green="✔︎ | color=#008000 dropdown=false"
 
-webpack_status="/tmp/webpack-progress"
+webpack_status="`/usr/local/bin/node -e 'console.log(require("os").tmpdir())'`/webpack-progress"
 
 semaphore=0
 
